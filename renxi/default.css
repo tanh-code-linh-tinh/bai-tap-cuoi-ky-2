@@ -13,3 +13,40 @@ a {color:#000;font-size:14px;}
 .hand{cursor:pointer;}
 .say{margin-left:5px;}
 .space{margin-right:200px;}
+
+/* Trái tim ban đầu màu đen */
+#heart-btn i {
+    color: black;
+}
+
+/* Khi bấm vào, đổi màu đỏ */
+#heart-btn.liked i {
+    color: red;
+}
+
+/* Thiết kế cho nút minimize (dấu trừ trong vòng tròn đen) */
+#minimize {
+    background: black;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#minimize i {
+    color: white;
+    font-size: 20px;
+}
+/* Nút chia sẻ ban đầu màu đen */
+#share-btn i {
+    color: black;
+}
+
+/* Khi bấm vào, đổi màu xanh */
+#share-btn.shared i {
+    color: #fe8c00;
+}
